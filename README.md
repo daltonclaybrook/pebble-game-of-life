@@ -1,7 +1,7 @@
 The Game of Life - A Pebble Watch Face
 ======================================
 
-![screenshot](https://www.dropbox.com/s/7lkaolz93d269gw/pebble-gol.jpg)
+![screenshot](http://daltonclaybrook.com/pebble/pebble-gol.jpg)
 
 This is Conway's Game of Life simulation in the form of a watch face. It supports both 12 and 24 hour formats. 
 
