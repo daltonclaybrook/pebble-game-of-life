@@ -6,7 +6,7 @@
 #define MY_UUID { 0x94, 0x35, 0x9F, 0xB5, 0x58, 0x18, 0x49, 0x42, 0xA4, 0x2E, 0x92, 0x27, 0xB6, 0x09, 0x16, 0xE6 }
 PBL_APP_INFO(MY_UUID,
              "Game of Life", "Dalton Claybrook",
-             1, 0, /* App version */
+             1, 1, /* App version */
              DEFAULT_MENU_ICON,
              APP_INFO_WATCH_FACE);
 
@@ -238,7 +238,7 @@ void handle_init(AppContextRef ctx) {
     text_layer_set_background_color(&timeLayer, GColorWhite);
     text_layer_set_text_alignment(&timeLayer, GTextAlignmentCenter);
     text_layer_set_font(&timeLayer, fonts_get_system_font(FONT_KEY_GOTHAM_30_BLACK));
-    layer_set_frame(&timeLayer.layer, GRect(0, 116, 144, 40));
+    layer_set_frame(&timeLayer.layer, GRect(0, 115, 144, 41));
     layer_add_child(&window.layer, &timeLayer.layer);
     
     //Only set the seed once
